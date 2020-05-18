@@ -1,0 +1,17 @@
+{
+  "name": "writecrc",
+  "version": "1.0.0",
+  "description": "a package aimed at writing CRC at a defined offset into a file",
+  "main": "main.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daan Schilder",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^0.6.3",
+    "yargs": "^15.3.1"
+  }
+}
